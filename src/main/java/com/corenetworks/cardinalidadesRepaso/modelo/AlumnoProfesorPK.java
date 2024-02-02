@@ -35,4 +35,6 @@ public class AlumnoProfesorPK implements Serializable {
     public int hashCode() {
         return Objects.hash(profesor, alumno);
     }
+
+
 }
