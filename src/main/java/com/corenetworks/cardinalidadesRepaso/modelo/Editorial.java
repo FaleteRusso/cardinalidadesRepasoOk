@@ -21,8 +21,10 @@ public class Editorial {
     @Column(length = 120,nullable = false)
     private String direccion;
 
-    @OneToMany(mappedBy = "editorial",
+    /*@OneToMany(mappedBy = "editorial",
     cascade = CascadeType.ALL,
     fetch = FetchType.EAGER)
     private List<Libro> libros;
+
+     */
 }

@@ -13,7 +13,7 @@ import java.util.List;
 public class EditorialControlador {
     @Autowired
     private IEditorialServicio servicio;
-    @PostMapping
+   /* @PostMapping
     public Editorial crear(@RequestBody Editorial e){
         return servicio.crear(e);
     }
@@ -22,6 +22,8 @@ public class EditorialControlador {
     public Editorial modificar(@RequestBody Editorial e){
         return servicio.modificar(e);
     }
+
+    */
 
     @DeleteMapping("/{id}")
     void eliminar(@PathVariable(name = "id") int id){

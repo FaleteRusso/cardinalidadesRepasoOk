@@ -21,8 +21,7 @@ public class Libro {
     private String autor;
     @Column(nullable = false)
     private double precio;
-
-@JsonIgnore
+//@JsonIgnore
     @ManyToOne
     @JoinColumn(name = "id_editorial",
             nullable = false,

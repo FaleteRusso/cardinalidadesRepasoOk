@@ -11,7 +11,7 @@ import java.util.List;
 public class EditorialServiciolmpl implements IEditorialServicio{
     @Autowired
     private IEditorialRepo editorialRepo;
-    @Override
+   /* @Override
     public Editorial crear(Editorial e) {
         for (Libro elemento:
         e.getLibros()){
@@ -28,6 +28,8 @@ public class EditorialServiciolmpl implements IEditorialServicio{
         }
         return editorialRepo.save(e);
     }
+
+    */
 
     @Override
     public void eliminar(int id) {
